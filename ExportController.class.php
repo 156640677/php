@@ -15,7 +15,7 @@ class ExportController extends Controller {
     public function word(){
         $table1 = array(array("no"=>123,"name"=>"abc"),array("no"=>345,"name"=>"qwe"),array("no"=>665,"name"=>"kug"));
         $table2 = array(array("no"=>111,"name"=>"abc"),array("no"=>222,"name"=>"qwe"),array("no"=>665,"name"=>"kug"));
-        $obj = array("no"=>"#001","name"=>"赵首重","age"=>"100","tel"=>"13800808");
+        $obj = array("no"=>"#001","name"=>"张三","age"=>"100","tel"=>"13800808");
         $table = array("t1"=>$table1,"t2"=>$table2);
         $data["obj"] = $obj ;//这里的key可以为任意值
         $data["table"] = $table;//这里的key可以为任意值
